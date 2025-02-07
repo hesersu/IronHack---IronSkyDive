@@ -234,15 +234,11 @@ h5 {
 .footer {
   font-size: 1.9em;
   text-align: center;
-  padding: 40px 100px 40px 1000px;
+  padding: 40px 100px 40px 100px;
   margin-bottom: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.contact{
-  margin-left: 40px;
 }
   
 .address {
@@ -264,5 +260,4 @@ h5 {
 .map-frame {
   height: 375px;
   width: 60%;
-  padding: 50px;
 }
