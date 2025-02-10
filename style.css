@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
 
 /* Overall Properties with font weight */
 
@@ -64,7 +64,7 @@ h5 {
   background-color: rgb(25, 33, 41);
   padding-top: 10px;
   padding-bottom: 10px;
-  }
+}
 
 .nav-bar a {
   color: white;
@@ -111,11 +111,11 @@ h5 {
 }
 
 #general-information .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 370px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 370px;
+}
 
 .container {
   width: 1200px;
@@ -125,7 +125,7 @@ h5 {
 
 .dark-background {
   background-color: rgb(25, 33, 41);
-  color: white
+  color: white;
 }
 
 .text {
@@ -149,10 +149,10 @@ h5 {
 /* Section 2 Properties */
 
 #structure > div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .service-box {
@@ -179,11 +179,11 @@ h5 {
 }
 
 #team > div > article {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 
 #team {
   padding: 75px 0px;
@@ -196,8 +196,8 @@ h5 {
 }
 
 #team hr {
-    margin: 20x auto 30px auto;
-    width: 40%
+  margin: 20x auto 30px auto;
+  width: 40%;
 }
 
 #team .section-text {
@@ -222,12 +222,12 @@ h5 {
   font-size: 1.5em;
 }
 
-.schedule-table th, td{
+.schedule-table th,
+td {
   border-bottom: 1px solid black;
   padding: 5px 10px 0px 10px;
   text-align: center;
 }
-
 
 /* Footer Properties */
 
@@ -240,7 +240,7 @@ h5 {
   justify-content: space-between;
   align-items: center;
 }
-  
+
 .address {
   font-style: normal;
   font-size: 0.8em;
@@ -263,28 +263,29 @@ h5 {
 }
 
 .slot-form-container {
-    width: 40%;
-    margin: 18px auto 0 auto;
-    font-size: 1.5em;
-    text-align: center;
+  width: 40%;
+  margin: 18px auto 0 auto;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 .slot-form-container label {
-    line-height: 15px;
-    margin: 5px;
+  line-height: 15px;
+  margin: 5px;
 }
 
-.slot-form-container input,select {
-    height: 20px;
-    outline: none;
-    padding: 3px;
-    width: 100%;
+.slot-form-container input,
+select {
+  height: 20px;
+  outline: none;
+  padding: 3px;
+  width: 100%;
 }
 
 .slot-form-container button {
-    border: 1px solid black;
-    color: black;
-    background-color: white;
-    padding: 9px;
-    margin-top: 15px;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  padding: 9px;
+  margin-top: 15px;
 }
